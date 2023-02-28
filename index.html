@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Manutech Projetos Civis
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.6.0.js"
+	  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+	  crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+	<button id="menuButtonSair" onclick="menuResponsivo2()" style="opacity: 0;" ></button>
+	<header class="header-transparent">
+		<div id="header-div">
+		<a href=""><img src="img/LogoBranco.png" id="logoHeader"></a>
+
+		<nav>
+			<ul id="menuDesktop">
+				<li><a href="#sobreSection" class="a-nav" id="sobre">Sobre</a></li>
+				<li><a href="#eletricaDiv" class="a-nav" id="servico">Serviço</a></li>
+				<li><a href="#portfolioAnchor" class="a-nav" id="portfolio">Portfólio</a></li>
+				<li><a href="#contatoAnchor" class="a-nav" id="contato">Contato</a></li>
+			</ul>
+
+			<ul id="menuMobile" style="left: -100%;">
+				<li><a href="#sobreSection" class="a-nav" id="sobre">Sobre</a></li>
+				<li><a href="#eletricaDiv" class="a-nav" id="servico">Serviço</a></li>
+				<li><a href="#portfolioAnchor" class="a-nav" id="portfolio">Portfólio</a></li>
+				<li><a href="#contatoAnchor" class="a-nav" id="contato">Contato</a></li>
+			</ul>
+		</nav>
+
+		<button id="menuButton" onclick="menuResponsivo()">&#9776;</button>
+		</div>
+
+
+	</header>
+
+	<main>
+		<div id="home">
+		<button id="seta" onclick="topFunction()" style="opacity: 1"></button>
+		</div>
+
+		<div id="sobreSection">
+			<h1 id="sobreH1" class="anime">QUEM SOMOS</h1>
+
+			<div class="sobreDiv anime">
+				<h1>MISSÃO</h1>
+				<img src="img/missaoIcone.png">
+			</div>
+			<p class="sobreP anime">TEMOS POR MISSÃO FORNECER AO MERCADO SOLUÇÕES INTEGRADORAS DE ENGENHARIA CIVIL, PINTURA E INSTALAÇÕES ELÉTRICAS, COM EXCELÊNCIA E SATISFAÇÃO DOS NOSSOS CLIENTES A NIVEL DE EXCELÊNCIA.</p>
+
+			<div class="sobreDiv anime">
+				<h1>VISÃO</h1>
+				<img src="img/visaoIcone.png">
+			</div>
+			<p class="sobreP anime">TORNAR-SE UMA EMPRESA DE REFERÊNCIA E RECONHECIDA EM QUALIDADE, ATENDIMENTO E SATISFAÇÃO EM PROJETOS CÍVEIS COMO A MELHOR OPÇÃO EM PROJETO CIVIL.</p>
+
+			<div class="sobreDiv anime">
+				<h1>VALORES</h1>
+				<img src="img/valoresIcone.png"">
+			</div>
+			<p class="sobreP anime">POR VALORES TEMOS A ÉTICA, A INTEGRIDADE, TRANSPARÊNCIA, COMPROMISSO, SEGURANÇA, TRABALHO EM EQUIPE, INOVAÇÃO E SUSTENTABILIDADE.</p>
+
+		</div>
+
+
+
+
+		<div class="carrouselDiv">
+			<h1>Parceiros</h1>
+			<div class="carrousel">
+				
+
+			<button aria-label="Anterior" class="js-carrousel-prev">«</button>	
+			  <div class="carrouselSlides js-carrousel">
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			    <div class="carrouselSlide"></div>
+			  </div>			  
+			<button aria-label="Próximo" class="js-carrousel-next">»</button>
+			</div>
+			<div role="tablist" class="js-carrousel-dots"></div>
+			
+		</div>
+
+		<div id="eletricaDiv">
+			<div class="servicoDivContainer">
+
+				<h1>Elétrica</h1>
+
+				<p>Nosso objetivo é atender as expectativas
+				de nossos clientes com qualidade e segurança;
+				Nossos funcionários são capacitados e qualificados
+				com propósito de oferecer ao mercado soluções
+				de instalações elétricas</p>
+
+				<h1>Serviços</h1>
+				<p>• Instalações Elétricas em geral de
+				acordo com as normas técnicas regulamentadoras</p>
+
+				<p>• Elaboração de projetos elétricos;</p>
+
+				<p>• Instalações de modo que permitam boas condições
+				técnicas no ambiente e facilidade de manutenção;</p>
+
+				<p>• Consultoria, avaliação e reparos elétricos.</p>
+
+			</div>
+		</div>
+
+		<div id="civilDiv">
+			<div class="servicoDivContainer" id="civilContainer">
+				<h1>Civil</h1>
+
+				<p>	• Reparos<br>
+					• Aplicação Contra Piso<br>
+					• Chapisco<br>
+					• Demolição Contra Piso<br>
+					• Quebra de Parede para Elétrica<br>
+					• Telhados<br>
+					• Construção Horizontal e Vertical<br>
+				</p>
+			</div>
+		</div>
+
+		<div id="pinturaDiv">
+			<div class="servicoDivContainer" id="pinturaContainer">
+				<h1>Pintura</h1>
+
+				<p>	• Gesso 3D<br>
+					• Cimento Queimado<br>
+					• Pintura Tradicional<br>
+					• Grafiatto<br>
+					• Antialgas<br>
+					• Pintura Mármore<br>
+					• Efeito Veludo<br>
+				</p>
+			</div>
+		</div>
+
+		<div id="portfolioAnchor">
+	
+			<ul>
+				<li class="lista activePortfolio" data-filter="todos">Todos</li>
+				<!--<li class="lista" data-filter="eletrica">Elétrica</li>-->
+				<li class="lista" data-filter="civil">Civil</li>
+				<li class="lista" data-filter="pintura">Pintura</li>
+			</ul>
+			<div class="produto">
+				
+				<div class="itemBox civil"><img src="img/portfoliocivil1.jpg"></div>	
+				<div class="itemBox civil"><img src="img/portfoliocivil3.jpg"></div>
+				<div class="itemBox civil"><img src="img/portfoliocivil4.jpg"></div>
+				<div class="itemBox civil"><img src="img/portfoliocivil5.jpg"></div>
+				<div class="itemBox civil"><img src="img/portfoliocivil6.jpg"></div>
+
+				<div class="itemBox pintura"><img src="img/portfoliopintura1.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura2.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura3.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura4.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura5.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura6.jpg"></div>
+				<div class="itemBox pintura"><img src="img/portfoliopintura7.jpg"></div>
+
+
+			</div>
+
+
+
+
+		</div>
+
+
+	
+	</main>
+
+<footer id="contatoAnchor">
+	<div id="contatoDiv">
+		<img src="img/LogoBranco.png">
+		<ul>
+			<li>
+				<p>Alexandre (12) 98162-1824</p>
+				<p>alexandre@manutechprojetoscivis.com.br</p>
+			</li>
+
+			<li>
+				<p>Marcos (12) 99185-8657</p>
+				<p>marcos@manutechprojetoscivis.com.br</p>
+			</li>
+
+			<li>
+				<p>Edilson (12) 99137-4659</p>
+				<p>edilson@manutechprojetoscivis.com.br</p>
+			</li>
+		</ul>
+	</div>
+	<p class="contatoP">CNPJ 31.923.369/0001-08 - IE 688464458114</p>
+	<p class="contatoP" id="contatoPUltimo">Manutech Projetos Civis &#169; Copyright</p>
+</footer>
+
+<script type="text/javascript" src="js/scrollAnchor.js"></script>
+<script type="text/javascript" src="js/scrollseta.js"></script>
+<script type="text/javascript" src="js/scrollMenu.js"></script>
+<script type="text/javascript" src="js/menuResponsivo.js"></script>
+<script type="text/javascript" src="js/scrollAnimate.js"></script>
+<script type="text/javascript" src="js/carrousel.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+<script type="text/javascript" src="js/galeria.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
